@@ -47,7 +47,7 @@ For modeling, we’ll use the **K-means clustering algorithm** due to its simpli
 
 #### Steps:
 1. **Data Preparation**: We’ll start by cleaning the data, removing rows with missing `CustomerID` values or invalid `Quantity`.
-2. **Feature Engineering**: We’ll create new features, such as `TotalAmount` and aggregate data by `CustomerID`.
+2. **Feature Engineering**: We’ll create new features, such as `TotalPurchase` and aggregate data by `CustomerID`.
 3. **Scaling**: Numerical features will be standardized to ensure fair contribution to clustering.
 4. **Elbow Method**: We’ll determine the optimal number of clusters by analyzing within-cluster sum of squares (WCSS).
 5. **Clustering with K-means**: Using the chosen number of clusters, we’ll apply K-means clustering and label each customer with a cluster ID.
