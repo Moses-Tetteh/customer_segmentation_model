@@ -37,7 +37,7 @@ Below is a dictionary of features that describe each customer’s behavior. Thes
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `CustomerID`  | Unique identifier for each customer.                                                                                                                 |
 | `Quantity`    | Total quantity of items purchased by the customer.                                                                                                   |
-| `TotalAmount` | Total spending by the customer (calculated as `Quantity * UnitPrice`).                                                                               |
+| `TotalPurchase` | Total spending by the customer (calculated as `Quantity * UnitPrice`).                                                                               |
 | `InvoiceNo`   | Count of unique invoices for each customer, indicating the frequency of purchases.                                                                  |
 | `Country`     | The country from which the customer made their purchase.                                                                                             |
 
